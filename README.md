@@ -14,6 +14,7 @@ One API. Every major trading card game. TCGPlayer market prices, eBay sold avera
 - [Command-Line Tools](#command-line-tools)
 - [Game Catalogs](#game-catalogs)
 - [Code Examples](#code-examples)
+- [Bots & Integrations](#bots--integrations)
 - [Tools](#tools)
 - [Learning Resources](#learning-resources)
 - [Tutorials](#tutorials)
@@ -55,6 +56,10 @@ Native client libraries for every major language. Each SDK is a thin wrapper ove
 ## Code Examples
 
 - **[tcg-api-examples](https://github.com/TCG-Price-Lookup/tcg-api-examples)** — Runnable code samples for the API in **8 languages**: JavaScript, Python, Go, Rust, PHP, Ruby, Java, and C#. Each example covers search + get + rate-limit handling + typed error handling. Uses official SDKs where they exist; falls back to stdlib HTTP clients for languages without one.
+
+## Bots & Integrations
+
+- **[tcg-discord-bot](https://github.com/TCG-Price-Lookup/tcg-discord-bot)** — Self-hosted Discord bot with slash commands for live trading card prices. `/price <card> [game]`, `/card <id>`, `/games`, `/help`. Built on discord.js v14 + the JS SDK. Dockerfile included, deploys in 5 minutes on Railway / Render / fly.io / your own VPS.
 
 ## Game Catalogs
 
