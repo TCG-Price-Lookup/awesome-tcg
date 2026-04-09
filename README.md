@@ -13,6 +13,7 @@ One API. Every major trading card game. TCGPlayer market prices, eBay sold avera
 - [Official SDKs](#official-sdks)
 - [Command-Line Tools](#command-line-tools)
 - [Game Catalogs](#game-catalogs)
+- [Code Examples](#code-examples)
 - [Tools](#tools)
 - [Learning Resources](#learning-resources)
 - [Tutorials](#tutorials)
@@ -50,6 +51,10 @@ Native client libraries for every major language. Each SDK is a thin wrapper ove
 - **[tcglookup CLI](https://github.com/TCG-Price-Lookup/tcglookup-cli)** — Terminal client for the TCG Price Lookup API. Search, lookup, and price-check cards from your shell. Built on the JS SDK.
   - npm: [`tcglookup`](https://www.npmjs.com/package/tcglookup)
   - Quick install: `npm i -g tcglookup && tcglookup search "blue-eyes white dragon"`
+
+## Code Examples
+
+- **[tcg-api-examples](https://github.com/TCG-Price-Lookup/tcg-api-examples)** — Runnable code samples for the API in **8 languages**: JavaScript, Python, Go, Rust, PHP, Ruby, Java, and C#. Each example covers search + get + rate-limit handling + typed error handling. Uses official SDKs where they exist; falls back to stdlib HTTP clients for languages without one.
 
 ## Game Catalogs
 
