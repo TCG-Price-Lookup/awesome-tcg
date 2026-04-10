@@ -13,7 +13,7 @@ One API. Every major trading card game. TCGPlayer market prices, eBay sold avera
 - [Official SDKs](#official-sdks)
 - [Command-Line Tools](#command-line-tools)
 - [Game Catalogs](#game-catalogs)
-- [Code Examples](#code-examples)
+- [Code Examples & API Specs](#code-examples--api-specs)
 - [Bots & Integrations](#bots--integrations)
 - [Tools](#tools)
 - [Learning Resources](#learning-resources)
@@ -50,12 +50,14 @@ Native client libraries for every major language. Each SDK is a thin wrapper ove
 ## Command-Line Tools
 
 - **[tcglookup CLI](https://github.com/TCG-Price-Lookup/tcglookup-cli)** — Terminal client for the TCG Price Lookup API. Search, lookup, and price-check cards from your shell. Built on the JS SDK.
-  - npm: [`tcglookup`](https://www.npmjs.com/package/tcglookup)
-  - Quick install: `npm i -g tcglookup && tcglookup search "blue-eyes white dragon"`
+  - npm: [`tcglookup`](https://www.npmjs.com/package/tcglookup) — `npm i -g tcglookup`
+  - Homebrew: [`homebrew-tcg`](https://github.com/TCG-Price-Lookup/homebrew-tcg) — `brew tap TCG-Price-Lookup/tcg && brew install tcglookup`
 
-## Code Examples
+## Code Examples & API Specs
 
-- **[tcg-api-examples](https://github.com/TCG-Price-Lookup/tcg-api-examples)** — Runnable code samples for the API in **8 languages**: JavaScript, Python, Go, Rust, PHP, Ruby, Java, and C#. Each example covers search + get + rate-limit handling + typed error handling. Uses official SDKs where they exist; falls back to stdlib HTTP clients for languages without one.
+- **[tcg-api-examples](https://github.com/TCG-Price-Lookup/tcg-api-examples)** — Runnable code samples for the API in **8 languages**: JavaScript, Python, Go, Rust, PHP, Ruby, Java, and C#. Each example covers search + get + rate-limit handling + typed error handling.
+- **[tcg-api-openapi](https://github.com/TCG-Price-Lookup/tcg-api-openapi)** — Hand-written **OpenAPI 3.1 specification** for every endpoint. Use with Swagger UI, Redoc, Stoplight, Postman, or [openapi-generator](https://openapi-generator.tech/) to scaffold a client in any language.
+- **[tcg-api-postman](https://github.com/TCG-Price-Lookup/tcg-api-postman)** — Official **Postman collection** + environment template. Drop into Postman, set your API key, hit Send. Works with Newman for CI runs.
 
 ## Bots & Integrations
 
